@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="RestaurantTab">Restaurant</string>
+    <string name="Hut">Pizza Hut</string>
+    <string name="King">Pizza King</string>
+    <string name="KFc">KFC</string>
+    <string name="Buffalo_burger">Buffalo Burger</string>
+    <string name="LocationOfKFC">El-Tahrir Rd, Giza Governorate</string>
+    <string name="LocztionOFHut">7 Street 79, Ad Dawawin, Abdeen, Cairo Governorate</string>
+    <string name="LocztionOFKing">121 Masr - Al Maadi, Cairo Governorate</string>
+    <string name="LocztionOFBurger">75 Al Haram, Al Kom Al Akhdar,Giza Governorate</string>
+    <string name="HistoricTab">Historic</string>
+    <string name="simble">Abu Simble Temple</string>
+    <string name="simble_description">a village in Nubia, southern Egypt, near the border with Sudan</string>
+    <string name="sphinx">Sphinx</string>
+    <string name="sphinx_description">The largest and most famous sphinx is the Great Sphinx of Giza</string>
+    <string name="Karnak">Karnak Temple</string>
+    <string name="karnak_description">It is believed to be the second most visited the historical site in Egypt</string>
+    <string name="Pyramids">Pyramids</string>
+    <string name="py_description">The Egyptian pyramids are ancient pyramid-shaped masonry structures located in Egypt</string>
+    <string name="CafeTab"> Cafe</string>
+    <string name="Spectra">Spectra Cafe</string>
+    <string name="Spectra_description">20St Abd Bakr El Sedik</string>
+    <string name="Cost">Costa Cafe</string>
+    <string name="Cost_description">1St Ahmed Zwail</string>
+    <string name="Class">Class Cafe</string>
+    <string name="Class_description">1St Tarek ben Ziad</string>
+    <string name="Star">Star Pax Cafe</string>
+    <string name="Star_description">1St Almeer Mohamed Mousa</string>
+</resources>

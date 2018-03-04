@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingOfAll">10dp</dimen>
+    <dimen name="SizeOFText">20sp</dimen>
+    <dimen name="WidthAndHieghtImage">90dp</dimen>
+</resources>
