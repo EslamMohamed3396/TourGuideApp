@@ -24,13 +24,13 @@ public class HistoricFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootview = inflater.inflate(R.layout.list_view_activity, container, false);
-        ArrayList<Details> listOfHostoric = new ArrayList<>();
-        listOfHostoric.add(new Details(getString(R.string.simble), getString(R.string.simble_description), R.drawable.abu_simbel));
-        listOfHostoric.add(new Details(getString(R.string.sphinx), getString(R.string.sphinx_description), R.drawable.sphinx));
-        listOfHostoric.add(new Details(getString(R.string.Karnak), getString(R.string.karnak_description), R.drawable.karnak));
-        listOfHostoric.add(new Details(getString(R.string.Pyramids), getString(R.string.py_description), R.drawable.py));
-        ListView listView = (ListView) rootview.findViewById(R.id.list_view);
-        AdabterOfList adabter = new AdabterOfList(getActivity(), listOfHostoric);
+        ArrayList<Place> historicList = new ArrayList<>();
+        historicList.add(new Place(getString(R.string.simble), getString(R.string.simble_description), R.drawable.abu_simbel));
+        historicList.add(new Place(getString(R.string.sphinx), getString(R.string.sphinx_description), R.drawable.sphinx));
+        historicList.add(new Place(getString(R.string.Karnak), getString(R.string.karnak_description), R.drawable.karnak));
+        historicList.add(new Place(getString(R.string.Pyramids), getString(R.string.py_description), R.drawable.py));
+        ListView listView = rootview.findViewById(R.id.list_view);
+        AdabterOfList adabter = new AdabterOfList(getActivity(), historicList);
         listView.setAdapter(adabter);
         return rootview;
     }

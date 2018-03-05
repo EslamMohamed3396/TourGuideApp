@@ -24,12 +24,12 @@ public class CafeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootview = inflater.inflate(R.layout.list_view_activity, container, false);
-        ArrayList<Details> listOfCafe = new ArrayList<>();
-        listOfCafe.add(new Details(getString(R.string.Spectra), getString(R.string.Spectra_description)));
-        listOfCafe.add(new Details(getString(R.string.Star), getString(R.string.Star_description)));
-        listOfCafe.add(new Details(getString(R.string.Cost), getString(R.string.Cost_description)));
-        listOfCafe.add(new Details(getString(R.string.Class), getString(R.string.Class_description)));
-        ListView listView = (ListView) rootview.findViewById(R.id.list_view);
+        ArrayList<Place> listOfCafe = new ArrayList<>();
+        listOfCafe.add(new Place(getString(R.string.Spectra), getString(R.string.Spectra_description)));
+        listOfCafe.add(new Place(getString(R.string.Star), getString(R.string.Star_description)));
+        listOfCafe.add(new Place(getString(R.string.Cost), getString(R.string.Cost_description)));
+        listOfCafe.add(new Place(getString(R.string.Class), getString(R.string.Class_description)));
+        ListView listView = rootview.findViewById(R.id.list_view);
         AdabterOfList adabter = new AdabterOfList(getActivity(), listOfCafe);
         listView.setAdapter(adabter);
         return rootview;

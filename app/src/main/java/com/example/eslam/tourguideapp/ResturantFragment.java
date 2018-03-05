@@ -23,12 +23,12 @@ public class ResturantFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootview = inflater.inflate(R.layout.list_view_activity, container, false);
-        ArrayList<Details> listOfResturant = new ArrayList<>();
-        listOfResturant.add(new Details(getString(R.string.Hut), getString(R.string.LocztionOFHut), R.drawable.pizza_hut));
-        listOfResturant.add(new Details(getString(R.string.King), getString(R.string.LocztionOFKing), R.drawable.pizza_king));
-        listOfResturant.add(new Details(getString(R.string.KFc), getString(R.string.LocationOfKFC), R.drawable.kfc));
-        listOfResturant.add(new Details(getString(R.string.Buffalo_burger), getString(R.string.LocztionOFBurger), R.drawable.burger));
-        ListView listView = (ListView) rootview.findViewById(R.id.list_view);
+        ArrayList<Place> listOfResturant = new ArrayList<>();
+        listOfResturant.add(new Place(getString(R.string.Hut), getString(R.string.LocztionOFHut), R.drawable.pizza_hut));
+        listOfResturant.add(new Place(getString(R.string.King), getString(R.string.LocztionOFKing), R.drawable.pizza_king));
+        listOfResturant.add(new Place(getString(R.string.KFc), getString(R.string.LocationOfKFC), R.drawable.kfc));
+        listOfResturant.add(new Place(getString(R.string.Buffalo_burger), getString(R.string.LocztionOFBurger), R.drawable.burger));
+        ListView listView = rootview.findViewById(R.id.list_view);
         AdabterOfList adabter = new AdabterOfList(getActivity(), listOfResturant);
         listView.setAdapter(adabter);
         return rootview;

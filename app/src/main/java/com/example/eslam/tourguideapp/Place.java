@@ -4,17 +4,17 @@ package com.example.eslam.tourguideapp;
  * Created by Eslam on 3/3/2018.
  */
 
-public class Details {
+public class Place {
     private static int NO_IMAGE_PROVIDED = -1;
-    String Name, Description;
-    int ImageID = NO_IMAGE_PROVIDED;
+    private String Name, Description;
+    private int ImageID = NO_IMAGE_PROVIDED;
 
-    public Details(String name, String description) {
+    public Place(String name, String description) {
         Name = name;
         Description = description;
     }
 
-    public Details(String name, String description, int imageID) {
+    public Place(String name, String description, int imageID) {
         Name = name;
         Description = description;
         ImageID = imageID;
